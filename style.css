@@ -1,0 +1,26 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    .booking-input {
+        width: 50%;
+    }
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.bi-arrow-bar-up {
+    font-size: 25px !important;
+}
